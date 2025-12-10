@@ -2,6 +2,7 @@
 A simple and responsive mobile-style application built with Ionic + Vue + TypeScript to display live cryptocurrency prices.
 The app fetches real-time data from a public crypto API, displays it in a clean list layout, and includes a refresh button to update prices instantly.
 
+
 Features
 
 Live cryptocurrency price fetch using external API
@@ -9,6 +10,7 @@ Refresh button to reload latest price data
 Mobile-friendly UI designed with Ionic components
 Clean green-black theme for modern look
 Built with Vue 3 + TypeScript + Ionic Framework
+
 
 Project Structure
 src/
@@ -24,6 +26,7 @@ src/
 │── App.vue
 │── main.ts
 
+
 Installation
 
 Clone repository:
@@ -34,12 +37,15 @@ cd your-repo
 Install dependencies:
 npm install
 
+
 Run the app:
 ionic serve
+
 
 API Used
 Cryptocurrency data is fetched from:
 https://api.coincap.io/v2/assets
+
 
 How It Works
 APIService.ts handles API requests
@@ -50,11 +56,13 @@ Clicking Refresh runs the fetch function again
 
 Data is shown in a table-like list with gradients
 
+
 Future Improvements
 Add search bar
 Add detail page for each coin
 Add dark/light mode toggle
 Add paging or limit options
+
 
 Tech Stack
 Ionic Framework
